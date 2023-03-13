@@ -176,6 +176,7 @@
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         margin: 0 auto 20px auto;
+        color: var(--color-white);
 
         @media (max-width:480px) {
             width: 258px;
@@ -214,7 +215,7 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    margin:0 auto 60px auto;
+    margin:0 auto auto;
 
     @media screen and (min-width:1200px) {
              margin:0;

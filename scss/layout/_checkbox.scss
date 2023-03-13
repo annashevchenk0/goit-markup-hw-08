@@ -14,7 +14,7 @@
         height: 16px;
         border: 2px solid var(--color-footer);
         border-radius: 2px;
-        fill: transparent;
+        fill: var(--color-white);
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 
         @media (max-width:768px) {
@@ -22,12 +22,9 @@
         }
     }
     &:checked + .checkbox-icon{
-        width: 15px;
-        height: 16px;
         background-color: var(--color-button-nav);
         fill: var(--color-white);
-        border: 2px solid var(--color-button-nav);
-        border-radius: 2px;
+        border: transparent;
     }
     &-label{
         padding-left: 23px;
